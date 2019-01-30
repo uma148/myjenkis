@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: pod
+metadata:
+  name: simple-pods
+spec:
+  containers:
+    - name: jenkis
+      image: jenkis
+ports:
+  - containerPort: 80
+
+
